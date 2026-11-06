@@ -1,0 +1,13 @@
+name: AmuletOfDaylight
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+author: EnderDevelopment
+commands:
+  amuleto:
+    description: Gives the Amulet of Daylight and shows its commands.
+    usage: /amuleto [give]
+    permission: amulet.command
+permissions:
+  amulet.command:
+    default: op
